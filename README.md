@@ -1,2 +1,2 @@
 # Pong_game
-Pong done in c++
+Pong game done in C++ through the use of the SFML interface.
