@@ -1,18 +1,34 @@
 TITLE: Gordon Dina, section F, Single player pong
 
 PROBLEM DESCRIPTION:
-In simple terms it is pong. It plays a start sound when played, you can move the paddle up or down to bounce the ball back to the wall, the program will tell you if you hit the ball, and the game will end once the ball gets behind the player. This was made as the games I have on my laptop are "loud" due to the content clicking and fast hitting keyboard inputs, so I wanted a game that was quite in its input so I looked back at old retro games. And pong was a pefect, as it only required two inputs which didn't really needed to be fastly inputed (unless you set the ball speed to high). This helps with solving boardem with out annoying anyone in your enviroment. 
+In simple terms it is pong. It plays a start sound when played, you can move the paddle up or down to bounce the ball back to the wall, 
+the program will tell you if you hit the ball, and the game will end once the ball gets behind the player. This was made as the games I have on my laptop are 
+"loud" due to the content clicking and fast hitting keyboard inputs, so I wanted a game that was quite in its input so I looked back at old retro games. And 
+pong was a pefect, as it only required two inputs which didn't really needed to be fastly inputed (unless you set the ball speed to high). This helps with 
+solving boardem with out annoying anyone in your enviroment. 
 
 
 PROGRAM DOCUMENTATION: 
-The user just needs to start the program, the only inputs are the movement keys to move the paddle (W for up, and S for down). The program does play a random piece of music every time they start up the program, so turning down/off your volume maybe necessary depending on their current environment. If another programmer  came along they would be able to change the speed of the ball/player, the size of the paddle/player, and music played. They could also add and hit sound/game over sound when the ball reaches those situations in the class file itself, add a counter to the number of hits the paddle makes with the ball shown in the window, and last would be a way to change the direction the game is played: letting the user choose to play with the paddle on the right, up, or down.
+The user just needs to start the program, the only inputs are the movement keys to move the paddle (W for up, and S for down). The program does play a random 
+piece of music every time they start up the program, so turning down/off your volume maybe necessary depending on their current environment. If another 
+programmer  came along they would be able to change the speed of the ball/player, the size of the paddle/player, and music played. They could also add and 
+hit sound/game over sound when the ball reaches those situations in the class file itself, add a counter to the number of hits the paddle makes with the ball 
+shown in the window, and last would be a way to change the direction the game is played: letting the user choose to play with the paddle on the right, up, or 
+down.
 
 
 
 
 TESTS:
-I tested the program a little over 5 times, going over each audio file making sure that they play and re-checking. The program does start up a little slow, but runs smooth after. When moving the player/paddle it stops when reaching the top/bottom of the screen, the ball will bounce off said paddle; but there are issues: the ball will sometimes look like hits the player but goes through them, the ball will glitch a bit if it hits the bottom of the paddle (slaming the paddle on the ball) causing mutiple hits.  
+I tested the program a little over 5 times, going over each audio file making sure that they play and re-checking. The program does start up a little slow, 
+but runs smooth after. When moving the player/paddle it stops when reaching the top/bottom of the screen, the ball will bounce off said paddle; but there are 
+issues: the ball will sometimes look like hits the player but goes through them, the ball will glitch a bit if it hits the bottom of the paddle (slaming the 
+paddle on the ball) causing mutiple hits.  
 
 
 REFLECTIONS:
-Learning about the differnt SFML things was cool but a little diffcult to grasp onto, the class in general were very nice as it made coding more clean and orginized. The class themeslves were sometimes spaghetti when wanting to do certain things, I orginally wanted to due different gameover noises but the amount of hoops was a bit much so I changed to start up sounds for less stress. Most of the problems came from the classes themevles and their specail needs, as well the different ways SFML works/operates. If I had to do another project, I would maybe do something a little more complicated depending on my time: maybe as far as tetris.
+Learning about the differnt SFML things was cool but a little diffcult to grasp onto, the class in general were very nice as it made coding more clean and 
+orginized. The class themeslves were sometimes spaghetti when wanting to do certain things, I orginally wanted to due different gameover noises but the 
+amount of hoops was a bit much so I changed to start up sounds for less stress. Most of the problems came from the classes themevles and their specail needs, 
+as well the different ways SFML works/operates. If I had to do another project, I would maybe do something a little more complicated depending on my time: 
+maybe as far as tetris.
